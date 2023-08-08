@@ -8883,13 +8883,6 @@
 "cUa" = (
 /turf/closed/wall,
 /area/security/brig)
-"cUn" = (
-/obj/structure/lattice,
-/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
-	dir = 4
-	},
-/turf/open/space/basic,
-/area/space/nearstation)
 "cUq" = (
 /obj/structure/table/wood,
 /obj/item/kirbyplants/random{
@@ -14555,6 +14548,10 @@
 	},
 /turf/open/floor/plasteel/dark/side,
 /area/hallway/secondary/exit/departure_lounge)
+"eHD" = (
+ /obj/machinery/vending/boozeomat/maint,
+/turf/closed/wall,
+/area/maintenance/department/science)
 "eHT" = (
 /obj/effect/turf_decal/tile/dark_red/fourcorners/contrasted{
 	alpha = 180;
@@ -24013,7 +24010,6 @@
 /obj/machinery/holopad{
 	pixel_y = 16
 	},
-/obj/machinery/computer/libraryconsole/bookmanagement,
 /turf/open/floor/plasteel,
 /area/crew_quarters/cafeteria)
 "hwS" = (
@@ -26232,7 +26228,6 @@
 	pixel_y = 15
 	},
 /obj/machinery/airalarm/directional/west,
-/obj/machinery/computer/libraryconsole/bookmanagement,
 /turf/open/floor/wood,
 /area/library)
 "ikf" = (
@@ -29761,8 +29756,6 @@
 /obj/machinery/camera/autoname{
 	c_tag = "Teleporter Room"
 	},
-/obj/structure/table/wood,
-/obj/machinery/computer/libraryconsole/bookmanagement,
 /turf/open/floor/carpet/royalblack,
 /area/library)
 "jsg" = (
@@ -30873,14 +30866,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/engine/atmos)
-"jIK" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/stool{
-	dir = 1;
-	pixel_y = 12
-	},
-/turf/open/floor/carpet/royalblack,
-/area/library)
 "jJt" = (
 /obj/structure/table/glass,
 /obj/effect/turf_decal/stripes/line{
@@ -32485,6 +32470,10 @@
 	},
 /turf/open/floor/plasteel/grid/steel,
 /area/security/prison)
+"kll" = (
+ /obj/machinery/vending/boozeomat/captain,
+/turf/closed/wall/r_wall,
+/area/crew_quarters/heads/hop)
 "klq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light{
@@ -65555,16 +65544,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
-"uRv" = (
-/obj/effect/turf_decal/tile/neutral/half/contrasted{
-	dir = 8
-	},
-/obj/effect/turf_decal/guideline/guideline_edge/red,
-/obj/machinery/firealarm/directional/south,
-/turf/open/floor/plasteel,
-/area/security/main{
-	name = "Security Viewing Hall"
-	})
 "uRZ" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "brigwindows";
@@ -69028,16 +69007,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/chapel/main)
-"vSE" = (
-/obj/effect/turf_decal/tile/neutral/half/contrasted{
-	dir = 8
-	},
-/obj/effect/turf_decal/guideline/guideline_edge/green{
-	color = "#439C1E"
-	},
-/obj/machinery/computer/libraryconsole/bookmanagement,
-/turf/open/floor/plasteel,
-/area/crew_quarters/cafeteria)
 "vTe" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
@@ -76449,6 +76418,23 @@
 /obj/structure/closet/secure_closet/contraband/armory,
 /turf/open/floor/plasteel,
 /area/ai_monitored/security/armory)
+"yml" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/space/nearstation)
+"ymo" = (
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 8
+	},
+/obj/effect/turf_decal/guideline/guideline_edge/red,
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/plasteel,
+/area/security/main{
+	name = "Security Viewing Hall"
+	})
 
 (1,1,1) = {"
 yeA
@@ -102599,7 +102585,7 @@ tIR
 cCS
 tDg
 mfO
-tIR
+eHD
 cCS
 dxK
 dLW
@@ -105089,7 +105075,7 @@ fvP
 kKn
 sVb
 eZn
-uRv
+ymo
 ntc
 aum
 rza
@@ -106461,9 +106447,9 @@ fJJ
 jsM
 fJJ
 xUD
-cUn
+yml
 gsA
-cUn
+yml
 jGx
 aem
 jGx
@@ -107659,7 +107645,7 @@ bpg
 wCG
 nRq
 ell
-uRv
+ymo
 seT
 fxe
 qKl
@@ -110196,7 +110182,7 @@ rIN
 sKM
 iaB
 aIw
-wGM
+kll
 wGM
 wGM
 gST
@@ -117694,7 +117680,7 @@ fUJ
 joI
 fmB
 xRe
-vSE
+wJS
 oPD
 uXd
 rfl
@@ -120014,7 +120000,7 @@ uPJ
 xUI
 eqb
 jsd
-jIK
+bxs
 lZw
 nXU
 jbn
