@@ -5293,9 +5293,9 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/camera/motion{
+	network = list("minisat");
 	c_tag = "MiniSat Core Hallway 1";
-	dir = 9;
-	network = list("minisat")
+	dir = 9
 	},
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/aisat_interior)
@@ -8075,8 +8075,9 @@
 /area/hallway/primary/central)
 "cFI" = (
 /obj/merge_conflict_marker{
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete.";
-	name = "---Merge Conflict Marker---"
+	name = "---Merge Conflict Marker---";
+	
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/machinery/vending/boozeomat/captain,
 /turf/closed/wall/r_wall,
@@ -10682,9 +10683,9 @@
 	},
 /obj/machinery/light,
 /obj/machinery/camera/motion{
+	network = list("aiupload");
 	c_tag = "MiniSat Upload Chamber";
-	dir = 10;
-	network = list("aiupload")
+	dir = 10
 	},
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai_upload)
@@ -28687,9 +28688,9 @@
 	pixel_x = -30
 	},
 /obj/machinery/camera/autoname{
+	network = list("aicore");
 	c_tag = "AI Core";
-	dir = 4;
-	network = list("aicore")
+	dir = 4
 	},
 /turf/open/floor/engine/o2,
 /area/ai_monitored/turret_protected/ai)
@@ -28893,8 +28894,8 @@
 	pixel_y = 32
 	},
 /obj/machinery/camera/motion{
-	c_tag = "MiniSat Upload East";
-	network = list("minisat","aiupload")
+	network = list("minisat","aiupload");
+	c_tag = "MiniSat Upload East"
 	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat/foyer)
@@ -31720,8 +31721,8 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/camera/motion{
-	c_tag = "MiniSat Upload West";
-	network = list("minisat","aiupload")
+	network = list("minisat","aiupload");
+	c_tag = "MiniSat Upload West"
 	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat/foyer)
@@ -40252,8 +40253,9 @@
 /area/ai_monitored/turret_protected/aisat_interior)
 "mOM" = (
 /obj/merge_conflict_marker{
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete.";
-	name = "---Merge Conflict Marker---"
+	name = "---Merge Conflict Marker---";
+	
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/machinery/vending/boozeomat/maint,
 /turf/closed/wall,
